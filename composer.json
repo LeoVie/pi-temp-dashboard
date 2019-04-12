@@ -1,0 +1,20 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "leovie/php-namespace-validator": "^0.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeoVie\\PiTempDashboard\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LeoVie\\PiTempDashboard\\Tests\\": "Tests/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan-shim": "^0.11.5",
+        "phpunit/phpunit": "^8.1"
+    }
+}
